@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
+import our_team from "../../Assets/our_team.svg";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -33,11 +34,14 @@ function Home2() {
               Each brand is dedicated to providing top-quality products that meet the unique needs and preferences of our customers.
               <br />
               <br />
+              <br />
+              <br />
+              <br />
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={our_team} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

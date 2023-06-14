@@ -17,6 +17,12 @@ import {
   SiSolidity,
   SiPostgresql,
 } from "react-icons/si";
+import hierarchy from "../../Assets/logo hierarchy.png";
+import huhah from "../../Assets/logo huhah sambal.png";
+import sappox from "../../Assets/logo sappox.png";
+import Bahureksa from "../../Assets/logo3.png";
+import Sateh from "../../Assets/satehlogo.png";
+import Tuxedo from "../../Assets/Tuxedo Portrait (PNG).png";
 import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
@@ -42,27 +48,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
       </Col>
     </Row>
   );

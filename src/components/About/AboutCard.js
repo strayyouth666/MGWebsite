@@ -8,14 +8,15 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, We are <span className="purple">Mulyosari Group </span>
-            from <span className="purple"> Surabaya, Indonesia.</span>
+            Hello Everyone, We are <span className="purple">Mulyosari Group </span>
+            from <span className="purple"> Indonesia, Southeat Asia. </span>
+            Our vision is to <span className="purple">Inovating Together, Empowering Brands. </span>
+            So, let us show you our profile, check this out.
           </p>
 
-      
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Semua manusia di muka bumi ini bingung, mbak. Nanti nggak bingung kalo di surga"{" "}
+            "Semua manusia di muka bumi ini bingung, kak. Nanti nggak bingung kalo di surga"{" "}
           </p>
           <footer className="blockquote-footer">Aldi Taher</footer>
         </blockquote>
