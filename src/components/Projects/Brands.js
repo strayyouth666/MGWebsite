@@ -7,13 +7,14 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 
 import hierarchy from "../../Assets/logo hierarchy.png";
-import huhah from "../../Assets/logo huhah sambal.png";
-import sappox from "../../Assets/logo sappox.png";
-import Bahureksa from "../../Assets/logo3.png";
-import Sateh from "../../Assets/satehlogo.png";
-import Tuxedo from "../../Assets/Tuxedo Portrait (PNG).png";
-import SweetMiles from "../../Assets/Logo Primer.png";
-import OrganicT from "../../Assets/ORGANIC TREASURE LOGOO.jpg";
+import huhah from "../../Assets/logo huhah sambal White.png";
+import sappox from "../../Assets/logo sappox White-01.png";
+import Bahureksa from "../../Assets/Bahureksa White.png";
+import Sateh from "../../Assets/satehlogo White-01.png";
+import Tuxedo from "../../Assets/Tuxedo Square white-01.png";
+import Ubamie from "../../Assets/Ubamie Logo White-01.png";
+import SweetMiles from "../../Assets/Logo Sweet Miles Whhite-01.png";
+import OrganicT from "../../Assets/Logo Organic Treasure White-01-01.png";
 import Shore from "../../Assets/shore_logo.png";
 
 import suicide from "../../Assets/Projects/suicide.png";
@@ -36,7 +37,7 @@ function Projects() {
               imgPath={Bahureksa}
               isBlog={false}
               title="Bahureksa"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="In every Bahureksa product, we consistently present every detail of Bahureksa products with 3 Key Elements that will always be attached to all products, namely exclusive, elegant, and affordable."
               ghLink="https://www.instagram.com/bahureksa.leatherworks/"
               demoLink=""
             />
@@ -47,7 +48,7 @@ function Projects() {
               imgPath={huhah}
               isBlog={false}
               title="Huh-Hah!"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="Huh-Hah! Sambal: Ignite your taste buds with the fiery flavors of our exceptional sambal. Bursting with the finest ingredients, including tantalizing squid, tuna, and onions, it delivers a symphony of savory sensations. Elevate your meals with Huh-Hah! and experience a harmonious blend of spice, seafood, and umami goodness."
               ghLink="https://www.instagram.com/huhhah.sub/"
               demoLink="https://shopee.co.id/huhhah.id"
             />
@@ -58,7 +59,7 @@ function Projects() {
               imgPath={OrganicT}
               isBlog={false}
               title="Organic Treasure"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="Organic Treasure: Unlock the power of nature with our exceptional essential oil collection. Crafted from the purest organic ingredients, our oils offer a treasure trove of holistic benefits. Immerse yourself in the enchanting aromas that promote balance, wellness, and harmony. Embrace the organic treasure for a revitalizing journey of well-being."
               ghLink="https://www.instagram.com/organictreasure.id/"
               demoLink="https://shopee.co.id/organictreasure"
             />
@@ -69,7 +70,7 @@ function Projects() {
               imgPath={sappox}
               isBlog={false}
               title="Sappox"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description="Sappox-Snacks is a snack from home production that is very guaranteed quality. Sappox-Snacks uses premium raw materials and of course we choose fruit and vegetables and a mixture of quality ingredients, so that the sweet and crunchy taste of fruit and vegetables from Sappox-Snacks will be a snacking companion."
               ghLink="https://www.instagram.com/sappox.snacks/"
               demoLink="https://shopee.co.id/sappoxsnacks"              
             />
@@ -80,7 +81,7 @@ function Projects() {
               imgPath={Sateh}
               isBlog={false}
               title="Sateh.Pojok"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description="Sateh pojok is a simple satay outlet that sells chicken satay and klopo meat satay, one of Surabaya's culinary specialties. The concept we bring is different from other satay products in general, where our satay can be enjoyed anytime and anywhere. With our express packaging concept and delicious flavors, sateh pojok is here to serve you a piece of heaven."
               ghLink="https://www.instagram.com/sateh.pojok/"
               // demoLink="https://plant49-ai.herokuapp.com/"
             />
@@ -91,7 +92,7 @@ function Projects() {
               imgPath={Shore}
               isBlog={false}
               title="Shore"
-              description="Shore Shoes & Care is the perfect solution for cleaning and caring for your shoes.  Specially designed to remove dirt and stains, keeping shoes looking fresh and well cared for.  The effective formula protects and extends the life of shoes, making them look like new again."
+              description="Shore Shoes & Care is the perfect solution for cleaning and caring for your shoes. Specially designed to remove dirt and stains, keeping shoes looking fresh and well cared for.  The effective formula protects and extends the life of shoes, making them look like new again."
               ghLink="https://www.instagram.com/shore.id/"
               demoLink="https://shopee.co.id/shore.indonesia"
             />
@@ -102,7 +103,7 @@ function Projects() {
               imgPath={SweetMiles}
               isBlog={false}
               title="Sweet Miles"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description="Sweet Miles Aromatherapy: Indulge in a blissful journey of scents that rejuvenate your mind and soul. Our carefully curated collection of aromatic oils and diffusers create a serene atmosphere, promoting relaxation and tranquility. Discover the sweetest miles of pure aromatic bliss with our exquisite aromatherapy products."
               ghLink="https://www.instagram.com/sweetmiles.id/"
               demoLink="https://shopee.co.id/sweetmiles.id"
             />
@@ -113,7 +114,7 @@ function Projects() {
               imgPath={Tuxedo}
               isBlog={false}
               title="Tuxedo"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description="Tuxedo Autocare offers premium black vehicle detailing services, including expert glass polishing and application of cutting-edge nano coatings. Our meticulous treatments enhance your car's appearance and protect it from the elements. Experience fuel savings and unmatched luxury, ensuring your vehicle stands out on the road."
               ghLink="https://www.instagram.com/tuxedo.autocare/"
               demoLink="https://shopee.co.id/tuxedo.autocare" 
             />
@@ -121,10 +122,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <BrandCard
-              imgPath={SweetMiles}
+              imgPath={Ubamie}
               isBlog={false}
               title="Ubamie"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description="Combining the distinctive umami flavor with the deliciousness of bakmie, it is hoped that our product 'Ubamie' will become a delicious and attractive food alternative for consumers. We introduce Ubamie as a product that combines two delicious and unique flavors, and provides a different eating experience from other types of food."
               ghLink="https://www.instagram.com/ubamiee/"
               demoLink="" 
             />

@@ -16,7 +16,7 @@ function AboutCard() {
 
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Semua manusia di muka bumi ini bingung, kak. Nanti nggak bingung kalo di surga"{" "}
+            "Semua manusia di muka bumi ini bingung, kak. Nanti ngga bingung kalau sudah di surga"{" "}
           </p>
           <footer className="blockquote-footer">Aldi Taher</footer>
         </blockquote>

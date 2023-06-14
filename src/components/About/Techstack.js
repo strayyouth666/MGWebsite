@@ -17,12 +17,12 @@ import {
   SiSolidity,
   SiPostgresql,
 } from "react-icons/si";
-import hierarchy from "../../Assets/logo hierarchy.png";
-import huhah from "../../Assets/logo huhah sambal.png";
-import sappox from "../../Assets/logo sappox.png";
-import Bahureksa from "../../Assets/logo3.png";
-import Sateh from "../../Assets/satehlogo.png";
-import Tuxedo from "../../Assets/Tuxedo Portrait (PNG).png";
+// import hierarchy from "../../Assets/logo hierarchy.png";
+// import huhah from "../../Assets/logo huhah sambal.png";
+// import sappox from "../../Assets/logo sappox.png";
+// import Bahureksa from "../../Assets/logo3.png";
+// import Sateh from "../../Assets/satehlogo.png";
+// import Tuxedo from "../../Assets/Tuxedo Portrait (PNG).png";
 import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
