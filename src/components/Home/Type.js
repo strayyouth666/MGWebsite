@@ -13,6 +13,8 @@ function Type() {
           "Sappox.Snacks",
           "Ubamie",
           "Shore.id",
+          "Sweet Miles",
+          "Organic Treasure",
         ],
         autoStart: true,
         loop: true,
