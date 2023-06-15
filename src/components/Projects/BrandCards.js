@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgInstagram } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
-import { AiFillShop} from "react-icons/ai";
+import { SiShopee} from "react-icons/si";
 
 function ProjectCards(props) {
   return (
@@ -30,7 +30,7 @@ function ProjectCards(props) {
             target="_blank"
             style={{ marginLeft: "10px" }}
           >
-            <AiFillShop /> &nbsp;
+            < SiShopee /> &nbsp;
             {"Shopee"}
           </Button>
         )}

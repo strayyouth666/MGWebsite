@@ -5,7 +5,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn, FaShopify } from "react-icons/fa";
+import { FaGoogle } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -21,16 +21,16 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
-            {/* <li className="social-icons">
+            <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="mailto:mulyosarigroup5@gmail.com?subject=Bussiness%20and%20Inquieres&body=Hello,%20Mulyosari%20Group%20!"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <FaShopify />
+                <FaGoogle />
               </a>
-            </li> */}
+            </li>
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/mulyosarigroup/"

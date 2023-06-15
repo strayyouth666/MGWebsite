@@ -34,14 +34,14 @@ function About() {
             <img src={online1} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        {/* <h1 className="project-heading">
-          OUR <strong className="purple">Brands </strong>
-        </h1> */}
+        <h1 className="project-heading">
+          OUR <strong className="purple">Sectors</strong>
+        </h1>
 
-        {/* <Techstack /> */}
+        <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Platforms</strong> We use
+          <strong className="purple">Platforms</strong> We Use
         </h1>
         <Toolstack />
 

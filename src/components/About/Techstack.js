@@ -1,53 +1,17 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from "react-icons/si";
-// import hierarchy from "../../Assets/logo hierarchy.png";
-// import huhah from "../../Assets/logo huhah sambal.png";
-// import sappox from "../../Assets/logo sappox.png";
-// import Bahureksa from "../../Assets/logo3.png";
-// import Sateh from "../../Assets/satehlogo.png";
-// import Tuxedo from "../../Assets/Tuxedo Portrait (PNG).png";
-import { TbBrandGolang } from "react-icons/tb";
+// import { FaBowlFood } from "react-icons/fa";
+import { SlChemistry } from "react-icons/sl";
+import { MdOutlineFastfood } from "react-icons/md";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <MdOutlineFastfood />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SlChemistry/>
       </Col>
     </Row>
   );
