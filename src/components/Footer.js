@@ -6,13 +6,35 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaGoogle } from "react-icons/fa";
+import Button from "react-bootstrap/Button";
 
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
     <Container fluid className="footer">
-      <Row>
+      <Col>
+        <br />
+        {/* <Row> */}
+        <Col md="5" className="footer-contact">
+          <h2>Interested in becoming our partner?</h2>
+          <br></br>
+          <Button variant="primary"  href="https://wa.me/+628115859889?text=Hello,%20Mulyosari%20Group%20!"
+           target="_blank">
+            {"Collaborate with us!"}
+          </Button>
+        </Col>
+
+        {/* <Col md="4" className="footer-copywright">
+          <h3>Developed by Muhammad Faruq</h3>
+        </Col> */}
+        
+        {/* </Row> */}
+        <br />
+        <br />
+        <br />
+        <div></div>
+        <Row>
         <Col md="4" className="footer-copywright">
           <h3>Developed by Muhammad Faruq</h3>
         </Col>
@@ -44,6 +66,7 @@ function Footer() {
           </ul>
         </Col>
       </Row>
+      </Col>
     </Container>
   );
 }

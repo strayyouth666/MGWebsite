@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
+import logoMG from "../Assets/MG White-01_Logo.png";
 import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
@@ -37,9 +38,12 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        {/* <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand> */}
+        <Navbar.Brand href="/" className="d-flex">
+          <img src={logoMG} className="img-fluid logo" alt="brand" />
+           <h2 className="logo-title">
+                Mulyosari Group{" "}
+           </h2>
+        </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {

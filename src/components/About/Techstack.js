@@ -9,9 +9,15 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <MdOutlineFastfood />
+        <h2 className="techstack-title">
+                Food & Beverages{" "}
+           </h2>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SlChemistry/>
+          <h2 className="techstack-title">
+                Chemicals{" "}
+           </h2>
       </Col>
     </Row>
   );

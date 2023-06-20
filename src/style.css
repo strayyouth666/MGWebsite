@@ -155,8 +155,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 4em !important;
+  width: 4em !important;
 }
 
 .navbar-nav .nav-link {
@@ -270,10 +270,17 @@ button:focus {
   text-align: left;
 }
 
+.logo-title {
+  padding-top: 25px !important;
+  font-size: 1.2em !important;
+  padding-left: 0px !important;
+}
+
 .heading {
   font-size: 2.4em !important;
   padding-left: 50px !important;
 }
+
 
 .heading-name {
   font-size: 2.5em !important;
@@ -409,6 +416,18 @@ button:focus {
 }
 .footer-copywright {
   text-align: center !important;
+}
+
+.footer-contact {
+  text-align: left !important;
+  color: white;
+  padding-left: 4em;
+  left: 4em;
+}
+
+.footer-head {
+  padding-left: 4.3em;
+  text-align: center;
 }
 
 .footer-body {
@@ -740,4 +759,10 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+.techstack-title {
+  padding-top: 25px !important;
+  font-size: 0.3em !important;
+  padding-left: 0px !important;
 }
