@@ -30,7 +30,7 @@ function Footer() {
           </Col>
 
           <Col md="4" className="footer-head">
-            <MapContainer />
+            {/* <MapContainer /> */}
           </Col>
         </Row>
         <br />
