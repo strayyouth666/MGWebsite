@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgInstagram } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
-import { SiShopee} from "react-icons/si";
+import { SiGoogle, SiShopee, SiGooglemaps} from "react-icons/si";
 
 function ProjectCards(props) {
   return (
@@ -32,6 +32,20 @@ function ProjectCards(props) {
           >
             < SiShopee /> &nbsp;
             {"Shopee"}
+          </Button>
+        )}
+
+          {/* If the component contains Maps link and if it's not a Blog then, it will render the below component  */}
+
+        {props.isFnB && props.mapsLink && (
+          <Button
+            variant="primary"
+            href={props.mapsLink}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            < SiGooglemaps /> &nbsp;
+            {"Maps"}
           </Button>
         )}
       </Card.Body>

@@ -79,11 +79,12 @@ function Projects() {
           <Col md={4} className="project-card">
             <BrandCard
               imgPath={Sateh}
-              isBlog={false}
+              isBlog={true}
+              isFnB={true}
               title="Sateh.Pojok"
               description="Sateh pojok is a simple satay outlet that sells chicken satay and klopo meat satay, one of Surabaya's culinary specialties. The concept we bring is different from other satay products in general, where our satay can be enjoyed anytime and anywhere. With our express packaging concept and delicious flavors, sateh pojok is here to serve you a piece of heaven."
               ghLink="https://www.instagram.com/sateh.pojok/"
-              // demoLink="https://plant49-ai.herokuapp.com/"
+              mapsLink="https://goo.gl/maps/shmnSJsMckqgHXRG7"
             />
           </Col>
 
@@ -123,11 +124,12 @@ function Projects() {
           <Col md={4} className="project-card">
             <BrandCard
               imgPath={Ubamie}
-              isBlog={false}
+              isBlog={true}
+              isFnB={true}
               title="Ubamie"
               description="Combining the distinctive umami flavor with the deliciousness of bakmie, it is hoped that our product 'Ubamie' will become a delicious and attractive food alternative for consumers. We introduce Ubamie as a product that combines two delicious and unique flavors, and provides a different eating experience from other types of food."
               ghLink="https://www.instagram.com/ubamiee/"
-              demoLink="" 
+              mapsLink="https://maps.app.goo.gl/gUNYQSEt55BpMaPo8?g_st=ic" 
             />
           </Col>
 
