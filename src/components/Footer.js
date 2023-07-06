@@ -43,7 +43,7 @@ function Footer() {
         <br />
         <Row>
           <Col md="4" className="footer-copywright">
-            <h3>Developed by Muhammad Faruq</h3>
+            <h3>Developed by mfaruqs</h3>
           </Col>
           <Col md="4" className="footer-copywright">
             <h3>Copyright © {year} MG</h3>
