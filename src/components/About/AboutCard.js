@@ -10,8 +10,9 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hello Everyone, We are <span className="purple">Mulyosari Group </span>
             from <span className="purple"> Indonesia, Southeast Asia. </span>
-            Our vision is to <span className="purple">Inovating Together, Empowering Brands. </span>
-            So, let us show you our profile, check this out.
+            By providing business consulting services and several other supporting matters such as licensing and marketing strategies to achieve 
+            our vision of <span className="purple">Inovating Together, Empowering Brands. </span>
+          
           </p>
 
 
