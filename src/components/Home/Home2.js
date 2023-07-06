@@ -27,7 +27,8 @@ function Home2() {
               <br />
               <br />Our portfolio includes renowned brands such as
               <i>
-                <b className="purple"> Huh-Hah Sambal, Tuxedo Autocare, Sappox Snacks, Shore Shoescare, Hierarchy Parfume, Bahureksa, Organic Treasure Essential, Sweet Miles Essential, Juice Be Mine, Tahu Waliktiawan, Ubamie, and Sateh.Pojok. </b>
+                {/* Hierarchy Parfume , Juice Be Mine, Tahu Waliktiawan,*/}
+                <b className="purple"> Huh-Hah Sambal, Tuxedo Autocare, Sappox Snacks, Shore Shoescare, Bahureksa, Organic Treasure Essential, Sweet Miles Essential, Ubamie, and Sateh.Pojok. </b>
               </i>
               <br />
               <br />
