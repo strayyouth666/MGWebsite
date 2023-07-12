@@ -78,7 +78,7 @@ function NavBar() {
                 to="/brand"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <CgFileDocument
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Brands
@@ -91,7 +91,7 @@ function NavBar() {
                 to="/product"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Product
+                <AiOutlineFundProjectionScreen  style={{ marginBottom: "2px" }} /> Services
               </Nav.Link>
             </Nav.Item>
 
