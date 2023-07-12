@@ -11,11 +11,15 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #15ace7;
+  --imp1-text-color: #ee9153;
 }
 
 .purple {
   color: var(--imp-text-color) !important;
+}
+.brandtext {
+  color: var(--imp1-text-color) !important;
 }
 
 button:focus {
@@ -420,6 +424,8 @@ button:focus {
 
 .footer-copywright {
   text-align: center !important;
+  margin-bottom: 0.5em;
+
 }
 
 .footer-contact {
@@ -456,8 +462,8 @@ button:focus {
   margin-bottom: 0.5em !important;
 }
 .footer-icons {
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
+  margin-top: 0.3em !important;
+  margin-bottom: 0.em !important;
   padding: 0 !important;
 }
 
