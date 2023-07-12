@@ -3,12 +3,39 @@ import { Container, Row, Col } from "react-bootstrap";
 import { FaBowlFood } from "react-icons/fa";
 import { SlSocialInstagram } from "react-icons/sl";
 import { MdBusiness } from "react-icons/md";
-import { TbLicense, TbWorldWww } from "react-icons/tb";
+import { TbLicense, TbWorldWww, TbDeviceAnalytics } from "react-icons/tb";
 
 function ProductStack() {
   const [showDescription, setShowDescription] = useState(false);
   const [description, setDescription] = useState(null);
   const descriptionRef = useRef(null);
+
+ const handleBussinessClick = () => {
+  setShowDescription(true);
+  setDescription(
+    <div style={{ textAlign: "justify" }} ref={descriptionRef}>
+      <h3 style={{ textAlign: "center" }}> <strong className="purple">Business Consulting</strong> </h3>
+      <p>
+        Our business consulting service is designed to provide you with expert guidance and strategies to optimize your business operations and achieve your goals. We understand the challenges and complexities of running a business and offer comprehensive solutions tailored to your specific needs.
+      </p>
+      <p>
+        With our business consulting service, our experienced consultants will conduct a thorough analysis of your business processes, identify areas for improvement, and develop effective strategies to enhance efficiency and profitability. We will help you streamline operations, optimize resource allocation, and implement best practices to drive sustainable growth.
+      </p>
+      <p>
+        Additionally, we offer strategic planning and market research services to help you identify new opportunities, expand into new markets, and stay ahead of the competition. Our consultants will work closely with you to develop actionable plans and provide ongoing support to ensure successful implementation.
+      </p>
+      <p>
+        Trust our business consulting service to provide you with valuable insights, innovative solutions, and the expertise needed to navigate complex business challenges. Contact us today to discuss how we can support your business consulting needs.
+      </p>
+      {/* <img src="business_consulting_image.jpg" alt="Business Consulting" /> */}
+    </div>
+  );
+  if (descriptionRef.current) {
+    descriptionRef.current.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
+
 
  const handleBrandClick = () => {
   setShowDescription(true);
@@ -42,7 +69,7 @@ function ProductStack() {
   const handleSocialMediaClick = () => {
   setShowDescription(true);
   setDescription(
-    <div style={{ textAlign: "justify" }}>
+    <div style={{ textAlign: "justify" }}ref={descriptionRef}>
       <h3 style={{ textAlign: "center" }}> <strong className="purple">Social Media Maintenance</strong></h3>
       <p>
         Our social media maintenance service aims to help you effectively manage your social media presence across popular platforms such as Instagram, Shopee, TikTok, GoFood, and GrabFood. We understand the power of social media in today's digital landscape and its impact on brand visibility and customer engagement.
@@ -56,13 +83,17 @@ function ProductStack() {
       {/* <img src="social_media_image.jpg" alt="Social Media Maintenance" /> */}
     </div>
   );
+ if (descriptionRef.current) {
+    descriptionRef.current.scrollIntoView({ behavior: "smooth" });
+  }
 };
+
 
 
 const handleLicenseClick = () => {
   setShowDescription(true);
   setDescription(
-    <div style={{ textAlign: "justify" }}>
+    <div style={{ textAlign: "justify" }}ref={descriptionRef}>
       <h3 style={{ textAlign: "center" }}> <strong className="purple">License & Permit</strong></h3>
       <p>
         Our license and permit service is designed to assist you in navigating the complex landscape of licenses, permits, and regulatory requirements for your business. We understand the importance of compliance and ensuring that your operations are in line with the necessary legal and regulatory frameworks.
@@ -75,13 +106,16 @@ const handleLicenseClick = () => {
       </p>
       {/* <img src="license_image.jpg" alt="License & Permit" /> */}
     </div>
-  );
+ );
+ if (descriptionRef.current) {
+    descriptionRef.current.scrollIntoView({ behavior: "smooth" });
+  }
 };
 
 const handleWebsiteClick = () => {
   setShowDescription(true);
   setDescription(
-    <div style={{ textAlign: "justify" }}>
+    <div style={{ textAlign: "justify" }}ref={descriptionRef}>
       <h3 style={{ textAlign: "center" }}> <strong className="purple">Website</strong> </h3>
       <p>
         Our website service is dedicated to creating and maintaining a professional and user-friendly online presence for your business. We understand the significance of a well-designed and optimized website in attracting and engaging customers, as well as driving conversions.
@@ -94,9 +128,11 @@ const handleWebsiteClick = () => {
       </p>
       {/* <img src="website_image.jpg" alt="Website" /> */}
     </div>
-  );
+ );
+ if (descriptionRef.current) {
+    descriptionRef.current.scrollIntoView({ behavior: "smooth" });
+  }
 };
-
 
   return (
     <div id="productStack">
@@ -106,6 +142,12 @@ const handleWebsiteClick = () => {
           <MdBusiness />
           <h2 className="techstack-title">Brand Maintenance</h2>
         </Col>
+
+        <Col xs={4} md={2} className="tech-icons" onClick={handleBussinessClick}>
+          <TbDeviceAnalytics />
+          <h2 className="techstack-title">Bussiness Consulting</h2>
+        </Col>
+
         <Col
           xs={4}
           md={2}
@@ -115,19 +157,22 @@ const handleWebsiteClick = () => {
           <SlSocialInstagram />
           <h2 className="techstack-title">Social Media Maintenance</h2>
         </Col>
+
         <Col xs={4} md={2} className="tech-icons" onClick={handleLicenseClick}>
           <TbLicense />
           <h2 className="techstack-title">License & Permit</h2>
         </Col>
+
         <Col xs={4} md={2} className="tech-icons" onClick={handleWebsiteClick}>
           <TbWorldWww />
           <h2 className="techstack-title">Website</h2>
         </Col>
+
       </Row>
       {showDescription && <div>{description}</div>}
       <br/>
       <br/>
-      <br/>
+
     </Container>
     </div>
   );
