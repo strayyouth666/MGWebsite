@@ -5,6 +5,7 @@ import plan from "../../Assets/plan.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import ProductPreview from "../Product/Product";
 
 function Home() {
   return (
@@ -43,6 +44,7 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+      {/* <ProductPreview /> */}
     </section>
   );
 }

@@ -15,8 +15,8 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Col>
-        <br />
-        <Row>
+        
+        {/* <Row>
           <Col md="5" className="footer-contact">
             <h2>Interested in becoming our partner?</h2>
             <br />
@@ -31,16 +31,9 @@ function Footer() {
 
           <Col md="4" className="footer-head">
             {/* <MapContainer /> */}
-          </Col>
-        </Row>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+          {/* </Col> */}
+        {/* </Row> */}
+        
         <Row>
           <Col md="4" className="footer-copywright">
             <h3>Developed by mfaruqs</h3>
@@ -74,6 +67,7 @@ function Footer() {
           </Col>
         </Row>
       </Col>
+     
     </Container>
   );
 }
