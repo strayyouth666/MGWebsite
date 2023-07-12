@@ -34,16 +34,27 @@ function About() {
             <img src={online1} alt="about" className="img-fluid" />
           </Col>
         </Row>
+        <br/>
+        <br/>
         <h1 className="project-heading">
           Our <strong className="purple">Sectors</strong>
         </h1>
+        <br/>
 
         <Techstack />
+        <br/>
+        <br/>
+        <br/>
+        <br/>
 
         <h1 className="project-heading">
           <strong className="purple">Platforms</strong> We Use
         </h1>
+        <br/>
         <Toolstack />
+        <br/>
+        <br/>
+        <br/>
 
         {/* <Github /> */}
       </Container>

@@ -13,7 +13,7 @@ function Product() {
           what do <strong className="purple">you get </strong> from us?
         </h1>
         <p style={{ color: "white" }}>
-          *make sure to try all of our services to make your business more profitable, of course <strong className="purple">gacor parah</strong>. 
+          make sure to try all of our services to make your business more profitable, of course <strong className="purple">gacor parah</strong>. 
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         </Row>

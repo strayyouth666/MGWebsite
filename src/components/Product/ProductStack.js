@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaBowlFood } from "react-icons/fa";
 import { SlSocialInstagram } from "react-icons/sl";
@@ -8,12 +8,13 @@ import { TbLicense, TbWorldWww } from "react-icons/tb";
 function ProductStack() {
   const [showDescription, setShowDescription] = useState(false);
   const [description, setDescription] = useState(null);
+  const descriptionRef = useRef(null);
 
  const handleBrandClick = () => {
   setShowDescription(true);
   setDescription(
-    <div style={{ textAlign: "justify" }}>
-      <h3 style={{ textAlign: "center" }}> <strong className="brandtext">Brand Maintenance</strong> </h3>
+    <div style={{ textAlign: "justify" }} ref={descriptionRef}>
+      <h3 style={{ textAlign: "center" }}> <strong className="purple">Brand Maintenance</strong> </h3>
       <p>
         Our brand maintenance service is designed to ensure that your brand remains consistent, strong, and impactful in the market. We understand the importance of maintaining a strong brand image to attract customers and stay ahead of the competition.
       </p>
@@ -32,6 +33,9 @@ function ProductStack() {
       {/* <img src="brand_image.jpg" alt="Brand Maintenance" /> */}
     </div>
   );
+  if (descriptionRef.current) {
+      descriptionRef.current.scrollIntoView({ behavior: "smooth" });
+    }
 };
 
 
@@ -39,7 +43,7 @@ function ProductStack() {
   setShowDescription(true);
   setDescription(
     <div style={{ textAlign: "justify" }}>
-      <h3 style={{ textAlign: "center" }}> <strong className="brandtext">Social Media Maintenance</strong></h3>
+      <h3 style={{ textAlign: "center" }}> <strong className="purple">Social Media Maintenance</strong></h3>
       <p>
         Our social media maintenance service aims to help you effectively manage your social media presence across popular platforms such as Instagram, Shopee, TikTok, GoFood, and GrabFood. We understand the power of social media in today's digital landscape and its impact on brand visibility and customer engagement.
       </p>
@@ -59,7 +63,7 @@ const handleLicenseClick = () => {
   setShowDescription(true);
   setDescription(
     <div style={{ textAlign: "justify" }}>
-      <h3 style={{ textAlign: "center" }}> <strong className="brandtext">License & Permit</strong></h3>
+      <h3 style={{ textAlign: "center" }}> <strong className="purple">License & Permit</strong></h3>
       <p>
         Our license and permit service is designed to assist you in navigating the complex landscape of licenses, permits, and regulatory requirements for your business. We understand the importance of compliance and ensuring that your operations are in line with the necessary legal and regulatory frameworks.
       </p>
@@ -78,7 +82,7 @@ const handleWebsiteClick = () => {
   setShowDescription(true);
   setDescription(
     <div style={{ textAlign: "justify" }}>
-      <h3 style={{ textAlign: "center" }}> <strong className="brandtext">Website</strong> </h3>
+      <h3 style={{ textAlign: "center" }}> <strong className="purple">Website</strong> </h3>
       <p>
         Our website service is dedicated to creating and maintaining a professional and user-friendly online presence for your business. We understand the significance of a well-designed and optimized website in attracting and engaging customers, as well as driving conversions.
       </p>
@@ -95,6 +99,7 @@ const handleWebsiteClick = () => {
 
 
   return (
+    <div id="productStack">
     <Container fluid className="about-section">
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
         <Col xs={4} md={2} className="tech-icons" onClick={handleBrandClick}>
@@ -124,6 +129,7 @@ const handleWebsiteClick = () => {
       <br/>
       <br/>
     </Container>
+    </div>
   );
 }
 
