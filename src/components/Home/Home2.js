@@ -9,6 +9,8 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Marketplace from "./Marketplace";
+import LinkPreview from "./LinkPreview";
 
 function Home2() {
  
@@ -51,7 +53,10 @@ function Home2() {
             <h1>FIND US ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with us
+            
             </p>
+           
+
             <ul className="home-about-social-links">
               {/* <li className="social-icons">
                 <a
@@ -94,6 +99,10 @@ function Home2() {
                 </a>
               </li>
             </ul>
+            <br/>
+            <br/>
+            {/* <Marketplace/> */}
+            {/* <LinkPreview/> */}
           </Col>
         </Row>
       </Container>

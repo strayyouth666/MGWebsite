@@ -44,8 +44,8 @@ const handleChemicalsClick = () => {
         <SlChemistry />
         <h2 className="techstack-title">Chemicals</h2>
       </Col>
-      <br/ >
-      {showDescription && <p>{description}</p>}
+     
+      {showDescription && <p><br/>{description}</p>}
     </Row>
   );
 }

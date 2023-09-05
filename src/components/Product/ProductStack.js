@@ -10,7 +10,7 @@ function ProductStack() {
   const [description, setDescription] = useState(null);
   const descriptionRef = useRef(null);
 
- const handleBussinessClick = () => {
+ const handleBusinessClick = () => {
   setShowDescription(true);
   setDescription(
     <div style={{ textAlign: "justify" }} ref={descriptionRef}>
@@ -47,9 +47,6 @@ function ProductStack() {
       </p>
       <p>
         With our brand maintenance service, we offer a comprehensive range of solutions to keep your brand in top shape. We provide regular brand audits to assess the effectiveness of your brand strategy and make necessary adjustments to align with your business goals. Our team of experts will closely analyze your brand elements, including your logo, tagline, colors, and messaging, to ensure they are consistent across all channels.
-      </p>
-      <p>
-        We also offer brand reputation management, monitoring your brand's online presence and addressing any negative feedback or reviews promptly. Our social media experts will develop engaging content and manage your social media platforms to maintain a positive brand image and foster meaningful connections with your audience.
       </p>
       <p>
         Additionally, we provide brand guidelines and training to your team members to ensure consistent brand messaging and visual identity throughout your organization. Our goal is to help you build a strong and recognizable brand that resonates with your target market.
@@ -143,9 +140,9 @@ const handleWebsiteClick = () => {
           <h2 className="techstack-title">Brand Maintenance</h2>
         </Col>
 
-        <Col xs={4} md={2} className="tech-icons" onClick={handleBussinessClick}>
+        <Col xs={4} md={2} className="tech-icons" onClick={handleBusinessClick}>
           <TbDeviceAnalytics />
-          <h2 className="techstack-title">Bussiness Consulting</h2>
+          <h2 className="techstack-title">Business Consulting</h2>
         </Col>
 
         <Col

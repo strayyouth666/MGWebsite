@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import logoMG from "../Assets/MG White-01_Logo.png";
+import logoMG from "../../Assets/MG White-01_Logo.png";
 import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,

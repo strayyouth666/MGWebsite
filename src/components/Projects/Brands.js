@@ -1,11 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import BrandCard from "./BrandCards";
-import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-
+import Particle from "../Reusable/Particle";
 import hierarchy from "../../Assets/logo hierarchy.png";
 import huhah from "../../Assets/logo huhah sambal White.png";
 import sappox from "../../Assets/logo sappox White-01.png";
@@ -16,10 +12,6 @@ import Ubamie from "../../Assets/Ubamie Logo White-01.png";
 import SweetMiles from "../../Assets/Logo Sweet Miles Whhite-01.png";
 import OrganicT from "../../Assets/Logo Organic Treasure White-01-01.png";
 import Shore from "../../Assets/shore_logo.png";
-
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
-
 function Projects() {
   return (
     <Container fluid className="project-section">
